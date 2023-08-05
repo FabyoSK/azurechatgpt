@@ -35,7 +35,7 @@ export const MenuItems: FC<Prop> = (props) => {
             <span className="overflow-ellipsis truncate"> {thread.name}</span>
           </span>
           <Button
-            className="invisible  group-hover/item:visible"
+            className="invisible group-hover/item:visible"
             size={"sm"}
             variant={"ghost"}
             onClick={async (e) => {
